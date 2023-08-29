@@ -16,6 +16,7 @@ interface WeatherData {
 }
 
 const CardDataStats: React.FC = () => {
+  //@ts-ignore
   const { user } = useContext(AuthContext);
   const apiKey = '2cbb3a7e734542e4bfe162855232608';
   const [cities, setCities] = useState<string[]>(['São Paulo', 'Rio de Janeiro']);
