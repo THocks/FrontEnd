@@ -11,6 +11,7 @@ const MapOne = () => {
       </h4>
       <div id="mapOne" className="mapOne map-btn h-90">
         <VectorMap
+          //@ts-ignore
           map={brMill}
           backgroundColor="white"
           regionStyle={{
