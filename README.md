@@ -22,11 +22,17 @@ e suas informações são armazenadas no Firestore. Criei também uma página on
 e integrei a API dos Correios (CEP) para automatizar o preenchimento dos campos com dados de endereço. Além disso, implementei um recurso para que os usuários possam enviar fotos, que são armazenadas no Firestore.
 
 Experiências Profissionais:
-Atualmente, sou um desenvolvedor full stack pleno com experiência em diversas tecnologias, incluindo:
+Atualmente:
 
 GCP (Google Cloud Platform) - Nível avançado
 Node.js com Nest.js
 React Native
+NextJs
+React
+Tailwind
+Material UI
+BootStrapp
+SASS
 SQL e PostgreSQL
 Conhecimentos básicos de Python
 Docker
