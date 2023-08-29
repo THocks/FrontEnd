@@ -1,0 +1,20 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply  font-normal text-base text-body bg-whiten relative z-1;
+  }
+}
+
+.map-btn .jvectormap-container .jvectormap-zoomin, 
+.map-btn .jvectormap-container .jvectormap-zoomout {
+  @apply bottom-0 top-auto right-0 left-auto flex items-center justify-center w-7.5 h-7.5 rounded border border-stroke dark:border-strokedark hover:border-primary dark:hover:border-primary bg-white hover:bg-primary text-body hover:text-white dark:text-bodydark dark:hover:text-white text-2xl leading-none px-0 pt-0 pb-0.5;
+}
+
+.map-btn .jvectormap-container .jvectormap-zoomin {
+  right: 45px;
+}
